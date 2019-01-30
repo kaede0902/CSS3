@@ -11,13 +11,17 @@ p {
     font-size: 2.4em;
     text-align: center;
 }
+/* Over 481px width,  */
 @media (min-width: 481px) {
   p { font-size: 3.2em; }
 }
 a[href^='http'] {
-    background: url('images/icons/external.svg') no-repeat left center;
+    background: url('images/icons/external.svg')
+     no-repeat left center;
+    /* svg size same as char. */
     background-size: 1em;
     display: inline-block;
+    /* 0.2em between svg and href string */
     padding-left: 1.2em;
 }
 </style>
