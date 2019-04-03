@@ -58,7 +58,7 @@ ex
         }
     }
 
-# aspect ratio
+## aspect ratio
 * width/heightのレート
     * aspect-raito: check the ratio of Browser
     * device-aspect-raito: check the ratio of Device.
@@ -66,3 +66,13 @@ ex: over 16:9 device
     @media (min-device-aspect-ratio: 16:9) {
         rules....
     }
+
+## selector
+a [rel = 'friend'] { color: red;}
+のように指定する。
+
+rel = 'freind met'のように複数ある場合は
+
+a[rel ~= 'friend']で部分一致を使う
+
+langは'-'区切りで'|'で指定する

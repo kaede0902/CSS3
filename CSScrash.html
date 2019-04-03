@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Crash</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        body {
+            background-color: #f4f4f4;
+            color: #555555;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.6em;
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+
+        }
+        a:hover {
+            color: red;
+        }
+        a:visited {
+            color:yellowgreen;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .box-1{
+            background-color:#333;
+            color: #fff;
+            border: 3px red solid;
+            border-top-style: dotted;
+            padding-top: 20px;
+            margin:auto;
+        }
+        .box-1 h1{
+            font-family: Tahoma;
+            font-weight: 800;
+            font-style: italic;
+            text-decoration: underline;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            word-spacing: 1em;
+        }
+        .box-2 {
+            border: 3px dotted #ccc;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .categories {
+            border: 1px #ccc solid;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        .categories h2{
+            text-align: center;
+        }
+        .categories ul{
+            padding: 0;
+            padding-left: 20px;
+            list-style: none;
+        }
+        .categories li{
+            padding-bottom: 8px;
+            border-bottom: dotted 1px #333;
+            list-style-image: url('check.png');
+        }
+        .my-form {
+            padding: 20px;
+        }
+        .my-form .form-group {
+            padding-bottom: 15px;
+        }
+        .my-form label {
+            display: block;
+        }
+        .my-form input {
+            padding: 8px;
+            width: 100%;
+        }
+
+        
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box-1">
+        <h1>hallo world</h1>
+        <p>Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Rerum, tenetur alias 
+            voluptates quod iusto amet, et placeat
+            blanditiis saepe totam officia aut, 
+            ipsum ducimus doloremque rem nulla 
+            dolor praesentium quis.
+        </p>
+    </div>
+    <div class="box-2">
+        <h1>Goodbye World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Rerum, tenetur alias 
+                voluptates quod iusto amet, et placeat
+                blanditiis saepe totam officia aut, 
+                ipsum ducimus doloremque rem nulla 
+                dolor praesentium quis.
+        </p>
+    </div>
+    <div class="categories">
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="#">Category01</a></li>
+            <li><a href="#">Category02</a></li>
+            <li><a href="#">Category03</a></li>
+            <li><a href="#">Category04</a></li>
+            <li><a href="CSScrash.html">Category05</a></li>
+            
+        </ul>
+    </div>
+    
+    <form class="my-form">
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="name">
+            <label>E-mail</label>
+            <input type="text" name="email">
+            <label>Message</label>
+            <textarea name="message"></textarea>
+            <input classs="button" type="submit" value="Sumit">
+        </div>
+    </form>
+
+    </div><!-- container -->
+    <div style="margin-top:500px;"></div>
+</body>
+</html>
