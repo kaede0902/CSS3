@@ -30,4 +30,4 @@ and get header padding, like `30px 10%`
 padding 9,25,  
 border none,  
 border radius 50px,  
-
+trans alpha 1 to 0.8
