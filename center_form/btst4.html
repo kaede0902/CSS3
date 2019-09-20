@@ -1,24 +1,18 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<style>
-* {
-    width: 200px;
-    margin: auto;
-}
-.wrapper {
-    margin: auto 0 0;
-    text-align: center;
-    transform: translateY(100%);
-}
-</style>
-
+<link rel="stylesheet" href="style.css">
 <div class="wrapper">
-<form >
+<form id='form'>
   <div class="form-group">
     <label for="exampleInputEmail1">Phone Number</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="phone number here">
+    <input type="tel" class="form-control" 
+    id="phone" name = 'hoge' 
+    placeholder="phone number here">
     <small class="text-muted">sample: 045-444-4444</small>
   </div>
-  <button type="submit" class="btn btn-primary">Judge</button>
+  <button type="submit" class="btn btn-primary">
+    Judge</button>
 </form>
+<p>region: Yokohama</p>
 </div>
+<script src="src.js"></script>
 
