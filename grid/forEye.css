@@ -1,0 +1,17 @@
+* {
+    margin: auto;
+    font-size: 2rem;
+    color: #FFF;
+    background: #000;
+}
+.wrapper {
+    margin-top: 10%;
+    display: grid;
+    background: #555;
+}
+div {
+    padding: 10px;
+}
+div:nth-child(even) {
+    background: #888;
+}
