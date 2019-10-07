@@ -1,7 +1,7 @@
+# ledger UI
 
-https://cssgrid-generator.netlify.com
-
-https://codepen.io/KAEDE0902/pen/ZEEYzQJ
+## git hub page here
+https://kaede0902.github.io/css/grid/ledger://kaede0902.github.io/css/grid/ledger/
 
 ## balance
 wrapper width 40%
@@ -27,3 +27,7 @@ h: 100
 * finder
 
 
+## grid gen
+https://cssgrid-generator.netlify.com
+## code pen
+https://codepen.io/KAEDE0902/pen/ZEEYzQJ
