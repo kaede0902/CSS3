@@ -1,4 +1,5 @@
 let reg = {
+    phone: 
     ykhm: '/045-d{3}-d{4}',
     tko: '/030-d{4}-d{4}',
 }
