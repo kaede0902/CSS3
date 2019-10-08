@@ -1,29 +1,35 @@
 # ledger UI
+* This is UI of my cakephp app.
+## img
+![uiimg](img/ledgerUI.png)
 
 ## git hub page here
-https://kaede0902.github.io/css/grid/ledger://kaede0902.github.io/css/grid/ledger/
+https://kaede0902.github.io/css/grid/ledger
 
-## balance
-wrapper width 40%
-gap 8px
-margin width: auto
-margin height: 40px
+## Size of each content
+### wrapper
+|width or height|size|
+|:--:|:--:|
+| width| 40%|
+| gap |8px|
+| margin width| auto|
+| margin height| 40px|
 
-## one block
-h: 64
-w: 1/1/1
-pdg: 10
-
-### last content
-h: 100
+### one block(NUM)
+|width or height|size|
+|:--:|:--:|
+| height| 64px |
+| width|  1fr/1fr/1fr |
+| pdg | 10px|
+| last height| 100px|
 
 
 ## todo ledger app
 * pagination
-* 6 work card 
-111 222
-333 444
-555 666
+* 6 work card   
+111 222  
+333 444  
+555 666  
 * finder
 
 
