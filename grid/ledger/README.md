@@ -32,6 +32,21 @@ https://kaede0902.github.io/css/grid/ledger
 555 666  
 * finder
 
+## for phone layout
+https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
+```css
+@media (min-width: 1281px) {
+  .wrapper {
+    width: 40%
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .wrapper {
+        width: 90%
+    }
+}
+```
+
 
 ## grid gen
 https://cssgrid-generator.netlify.com
