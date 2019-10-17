@@ -1,14 +1,15 @@
-@media (min-width: 1450px) {
+/* larger than 1450px but 1305 use waru 0.9*/
+@media only screen and (min-width: 1611px) {
   .wrapper {
     width: 30%
     }
 }
-@media (min-width: 800px) and (max-width: 1449px){
+@media (min-width: 1128px) and (max-width: 1611px){
   .wrapper {
     width: 44%
     }
 }
-@media (min-width: 320px) and (max-width: 770px) {
+@media (min-width: 320px) and (max-width: 1128px) {
     .wrapper {
         width: 90%
     }
@@ -18,24 +19,27 @@
     box-sizing: border-box;
     margin:0;
     padding: 0; 
+    color: #fff;
 }
 body {
     background: #000;
 }
 .wrapper {
     float: left;
-    margin: 16px 8px;
+    margin: 16px 12px;
     display: grid;
     grid-gap: 8px;
 }
+.wrapper:hover{
+    opacity: 0.6;
+}
 .num{
-    background: #58d5f6;
-    color: #fff;
+    background: #222;
     padding: 10px;
     height: 64px;
 }
 .num:nth-child(even) {
-    background: #236fc8;
+    background: #333;
 }
 .row1{ grid-row: 1/2; }
 .name {
@@ -48,7 +52,7 @@ body {
     grid-column: 5/6;
 }
 
-.row2{ grid-row: 2/3; }
+.row2{ grid-row: 2/3; height: 82px;}
 .created {
     grid-column: 1/2;
 }
@@ -56,10 +60,7 @@ body {
     grid-column: 2/3;
 }
 .tel_1 {
-    grid-column: 3/4;
-}
-.tel_2 {
-    grid-column: 4/5;
+    grid-column: 3/5;
 }
 .staff {
     grid-column: 5/6;
@@ -73,4 +74,27 @@ body {
 .content {
     grid-column: 2/6;
 }
-  
+button {
+    background: #444;
+    margin: 16px auto;
+    padding: 4px 16px;
+    font-size: 1.6em;
+}
+.bottom {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    text-align:center;
+    list-style-type: none;
+}
+.cnt {
+    font-size: 1.3em;
+}
+.pages{
+    font-size: 2em;
+    display: flex; 
+    text-align: center;
+    justify-content: space-around;
+}
+
