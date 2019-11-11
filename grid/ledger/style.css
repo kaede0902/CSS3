@@ -1,3 +1,4 @@
+
 /* larger than 1450px but 1305 use waru 0.9*/
 @media only screen and (min-width: 1611px) {
   .wrapper {
@@ -20,6 +21,7 @@
     margin:0;
     padding: 0; 
     color: #fff;
+    text-decoration: none;
 }
 body {
     background: #000;
@@ -34,12 +36,9 @@ body {
     opacity: 0.6;
 }
 .num{
-    background: #222;
+    background: #333a;
     padding: 10px;
     height: 64px;
-}
-.num:nth-child(even) {
-    background: #333;
 }
 .row1{ grid-row: 1/2; }
 .name {
@@ -74,12 +73,6 @@ body {
 .content {
     grid-column: 2/6;
 }
-button {
-    background: #444;
-    margin: 16px auto;
-    padding: 4px 16px;
-    font-size: 1.6em;
-}
 .bottom {
     margin: 0 auto;
     position: absolute;
@@ -93,8 +86,34 @@ button {
 }
 .pages{
     font-size: 2em;
+    width: 100%;
     display: flex; 
     text-align: center;
     justify-content: space-around;
 }
-
+.pages li a {
+    padding: 0 10px;
+    margin:0 5px;
+    border-radius: 20px;
+    background-color: rgba(0,136,167,1);
+}
+.pages li a:hover{
+    color: #333;
+}
+.new a {
+    transition: all 0.3s ease 0s;
+    background-color: rgba(0,136,167,1);
+    display:block;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 8px 32px;
+    margin-bottom: 2em;
+    border-radius: 30px;
+}
+.new a:hover {
+    color: #333;
+}
+.done {
+    background-color: rgba(30,139,219,1);
+}
