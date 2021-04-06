@@ -1,4 +1,8 @@
 # Grid
+* all grid practice broken
+
+
+
 https://www.freecodecamp.org/news/learn-css-grid-in-5-minutes-f582e87b1228/
 https://www.freecodecamp.org/news/heres-my-free-css-grid-course-merry-christmas-3826dd24f098/
 

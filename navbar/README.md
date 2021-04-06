@@ -31,3 +31,7 @@ padding 9,25,
 border none,  
 border radius 50px,  
 trans alpha 1 to 0.8
+
+### logo 
+w:149px, h: 17px,
+* try another by hatchful, svglogomaker.com

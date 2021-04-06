@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0; }
+body {
+    background: #000;
+}
+.main {
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr) );
+    grid-auto-rows: 100px;
+    grid-gap: 20px;
+}
+.wrapper{
+    display: inline-block;
+    float: left;
+    background: #58d5f6;
+    color: #fff;
+    padding: 10px;
+}
+.wrapper:nth-child(even) {
+    background: #236fc8;
+}
